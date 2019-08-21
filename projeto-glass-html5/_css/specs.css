@@ -1,0 +1,27 @@
+@charset "UTF-8"
+
+/*Formatação nos páragrafos da página especificações*/
+p{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+/*Formatação de tamanho da seção(section) do conteúdo das especificações*/
+section#conteudo {
+	width: 1000px;
+	margin: auto;
+}
+
+/*Formatação do iframe(google-glass) da página de especificações*/
+iframe#frame-specs{
+	width: 380px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+
+/*Uso do webkit para remover a rolagem do iframe(google-glass)*/
+iframe#frame-specs::-webkit-scrollbar{
+	display: none;
+}
